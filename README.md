@@ -1,8 +1,6 @@
-# VBA-CHALLENGE
-Second Assignment - VBA Scripting
 Sub StockMarket_Analysis()
 
-' Loop through all sheets
+    ' Loop through all sheets
 
     For Each ws In Worksheets
     ws.Activate
@@ -157,6 +155,4 @@ Sub StockMarket_Analysis()
     Next ws
 
 End Sub
-
-
 
